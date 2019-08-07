@@ -6,6 +6,9 @@ const app = express();
 // Connect with Database
 connectDB();
 
+// Middlewares
+app.use(express.json({ extended: false }));
+
 app.get('/', (req, res) => {
   res.json({ msg: 'Welcome to the dev-finder API...' });
 });
