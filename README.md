@@ -10,6 +10,10 @@ This app lets you to find web developers from your contact lists
 - Express
 - MongoDB & Mongoose
 
+Validation
+
+- Express-validator
+
 Authentication
 
 - jsonwebtoken
@@ -19,3 +23,8 @@ Authentication
 - React
 - React Hooks
 - React Context API for state management
+
+**Tools**
+
+- Postman
+- MongDB Atlas
